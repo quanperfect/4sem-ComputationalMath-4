@@ -1,7 +1,7 @@
 import math
 
 #todo
-def print_function(id):
+def function_to_string(id):
     if id == 1:
         return "[1] x^2"
     if id == 2:

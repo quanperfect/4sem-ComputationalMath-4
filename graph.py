@@ -30,7 +30,6 @@ def plot(lagrange_polynom, points, id):
     plt.plot(x, y, color='red', zorder=2, label='polynom', linewidth=2)
 
     if (id >= 1 and id <= 3):
-        print("plotting graph id")
         idfunction_x_points = x
         idfunction_y_points = []
 

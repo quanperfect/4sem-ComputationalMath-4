@@ -33,7 +33,7 @@ def work():
                 id = int(input_split[1])
                 if (id == 0):
                     print("You've selected to not graph a function.")
-                print("You've selected to graph a function: " + functions.print_function(id))
+                print("You've selected to graph a function: " + functions.function_to_string(id))
 
         elif (len(input_split) == 1):
             if (input_split[0] == "generate"):
